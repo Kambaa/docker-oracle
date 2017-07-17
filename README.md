@@ -5,6 +5,7 @@ Installation Instructions:
 - Put downloaded file into the 11.2.0.2 (Do not extract)
 - begin installation command: sudo ./buildDockerImage.sh -x -v 11.2.0.2
 - run container: sudo ./run-xe.sh
+- set admin passwords: docker exec docker-oracle /u01/app/oracle/setPassword.sh <YOUR_NEW_ADMIN_PASSWORD>
 
 
 This will create a new container named docker-oracle and system password will be set to 1234565.
