@@ -15,6 +15,17 @@ Goto: http://localhost:48080/apex/apex_admin  (username: admin password: 1234565
 Create a workspace (remember your entered passwords) and create a user for sqldeveloper access
 Connect using the passwords you've given.(SqlDeveloper etc.)
 
+Alternative Method: 
+
+CREATE USER <USERNAME> IDENTIFIED BY <PASSWORD>;
+GRANT RESOURCE TO <USERNAME>;
+GRANT CONNECT TO <USERNAME>;
+GRANT CREATE VIEW TO <USERNAME>;
+GRANT CREATE SESSION TO <USERNAME>;
+GRANT UNLIMITED TABLESPACE TO <USERNAME>;  -- optional
+GRANT DBA TO <USERNAME>; -- optional
+
+
 
 
 ## Todos:
