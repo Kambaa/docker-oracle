@@ -9,7 +9,12 @@ Installation Instructions:
 
 
 This will create a new container named docker-oracle and system password will be set to 1234565.
-Web port is setup 48080
+Web port is setup 48080 
+
+Goto: http://localhost:48080/apex/apex_admin  (username: admin password: 1234565)
+Create a workspace (remember your entered passwords)
+Connect using the passwords you've given.(SqlDeveloper etc.)
+
 
 
 ## Todos:
