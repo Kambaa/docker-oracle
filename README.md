@@ -17,6 +17,8 @@ Connect using the passwords you've given.(SqlDeveloper etc.)
 
 Alternative Method: 
 
+```sql
+
 CREATE USER <USERNAME> IDENTIFIED BY <PASSWORD>;
 GRANT RESOURCE TO <USERNAME>;
 GRANT CONNECT TO <USERNAME>;
@@ -25,13 +27,12 @@ GRANT CREATE SESSION TO <USERNAME>;
 GRANT UNLIMITED TABLESPACE TO <USERNAME>;  -- optional
 GRANT DBA TO <USERNAME>; -- optional
 
-
+```
 
 
 ## Todos:
-- Fix readme
 - Add server start/stop
 - Add file cleanup
-- add schema with credentials
++ add schema with credentials
 
 More On: https://github.com/oracle/docker-images/tree/master/OracleDatabase
