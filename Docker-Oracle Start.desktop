@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=true
+Name=Docker-Oracle Start
+Exec=sudo docker start docker-oracle 
+Type=Application
+Icon=/usr/share/icons/Mint-X/status/96/connect_established.svg

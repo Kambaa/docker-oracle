@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=
+Terminal=true
+Name=Docker-Oracle Start
+Exec=sudo docker stop docker-oracle 
+Type=Application
+Name[en_US]=Docker-Oracle Stop
+Icon=/usr/share/icons/Mint-X/status/96/connect_no.svg
